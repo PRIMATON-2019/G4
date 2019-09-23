@@ -22,6 +22,10 @@ namespace PrimatonG4
             Application.Exit();
         }
 
-        
+        private void BtnJugar_Click(object sender, EventArgs e)
+        {
+            Form2 Juego = new Form2();
+            Juego.Show();
+        }
     }
 }

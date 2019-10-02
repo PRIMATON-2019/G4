@@ -27,5 +27,13 @@ namespace PrimatonG4
             Form2 Juego = new Form2();
             Juego.Show();
         }
+
+        private void btnRegistrarse_Click(object sender, EventArgs e)
+        {
+            frmRegistro Registrarse = new frmRegistro();
+            this.Hide();
+            Registrarse.ShowDialog();
+            this.Show();
+        }
     }
 }

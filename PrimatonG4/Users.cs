@@ -16,7 +16,7 @@ namespace PrimatonG4
         private static string pathRegistros = "registros.xml";
 
         #region EVENTOS
-        public static void registrar (Alumno alumno)
+        public static bool registrar (Alumno alumno)
         {
             if (!File.Exists(pathRegistros))
             {
@@ -26,11 +26,20 @@ namespace PrimatonG4
                     tw.WriteLine("</Alumnos>");
                 }
             }
+                    //comprobamos que el dni no este registrado
+            XmlDocument alumnos = new XmlDocument();
+            alumnos.Load(pathRegistros);
+            var consulta = "//Alumno[(dni = '" + alumno.documento + "')]";
+            var resultado = alumnos.SelectSingleNode(consulta);
+            if (resultado != null) {
+                return false;
+            }
+
             var documentoAlumnos = new XmlDocument();
             documentoAlumnos.Load(pathRegistros);
             // Necesitamos agregar un nuevo alumno
             var xmlPadre = documentoAlumnos.SelectSingleNode("Alumnos");
-            XmlNode nuevoAlumno = documentoAlumnos.CreateElement("Alumno");
+            XmlNode nuevoAlumno = documentoAlumnos.CreateElement("Alumno"); 
             // Agregar nodo nombre
             XmlNode nodoNombre = documentoAlumnos.CreateElement("nombre");
             nodoNombre.InnerText = alumno.nombre;
@@ -39,32 +48,27 @@ namespace PrimatonG4
             XmlNode nodoDni = documentoAlumnos.CreateElement("dni");
             nodoDni.InnerText = alumno.documento;
             nuevoAlumno.AppendChild(nodoDni);
-  
-            // Agregar nodo nota
+              // Agregar nodo nota
              XmlNode nodoNota = documentoAlumnos.CreateElement("calificacion");
             nodoNota.InnerText = alumno.nota;
-            nuevoAlumno.AppendChild(nodoNota);
-           
+            nuevoAlumno.AppendChild(nodoNota);        
             // Agregar nodo escuela
             XmlNode nodoEscuela = documentoAlumnos.CreateElement("escuela");
             nodoEscuela.InnerText = alumno.school;
             nuevoAlumno.AppendChild(nodoEscuela);
-
             // Agregar nodo curso
             XmlNode nodoCurso = documentoAlumnos.CreateElement("curso");
             nodoCurso.InnerText = alumno.course;
             nuevoAlumno.AppendChild(nodoCurso);
-          
             // Agregar nodo contrasenia
             XmlNode nodoContrasenia = documentoAlumnos.CreateElement("contrasenia");
             nodoContrasenia.InnerText = alumno.password;
             nuevoAlumno.AppendChild(nodoContrasenia);
-            
             // Guardamos el nuevo nodo
             xmlPadre.AppendChild(nuevoAlumno);
             // Salvamos los cambios
             documentoAlumnos.Save(pathRegistros);
-
+            return true;
         }
 
       public static Alumno obtenerAlumnoLoguead() 
@@ -80,7 +84,7 @@ namespace PrimatonG4
             }
             Alumno alumnoEncontrado = null;
             XmlDocument alumnos = new XmlDocument();
-            alumnos.Load("registros.xml");
+            alumnos.Load(pathRegistros);
             var consulta = "//Alumno[(dni = '" + dni +"') and (contrasenia = '" + clave + "')]";
             var resultado = alumnos.SelectSingleNode(consulta);
             if (resultado != null) 

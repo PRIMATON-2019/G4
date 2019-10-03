@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace PrimatonG4
 {
@@ -24,8 +25,18 @@ namespace PrimatonG4
 
         private void BtnJugar_Click(object sender, EventArgs e)
         {
-            Form2 Juego = new Form2();
-            Juego.Show();
+            var loginDni = txtDni.Text;
+            var loginClave = txtContrasenia.Text;
+            var encontrado = Users.login(loginDni, loginClave);
+            if(encontrado != null) 
+            {
+                Form2 Juego = new Form2();
+                Juego.Show();
+            }
+            else 
+            {
+                MessageBox.Show("Controla de haber ingresado bien tu DNI o tu contraseña");
+            }
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)

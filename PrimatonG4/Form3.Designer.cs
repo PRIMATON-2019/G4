@@ -116,6 +116,7 @@
             this.btnRegistrarse.TabIndex = 19;
             this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.UseVisualStyleBackColor = true;
+            this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
             // 
             // txtPassword
             // 

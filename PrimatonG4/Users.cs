@@ -13,11 +13,21 @@ namespace PrimatonG4
     {
         private static Alumno alumnoLogueado = null;
 
+        private static string pathRegistros = "registros.xml";
+
         #region EVENTOS
         public static void registrar (Alumno alumno)
         {
+            if (!File.Exists(pathRegistros))
+            {
+                using(var tw = new StreamWriter(pathRegistros, true))
+                {
+                    tw.WriteLine("<Alumnos>");
+                    tw.WriteLine("</Alumnos>");
+                }
+            }
             var documentoAlumnos = new XmlDocument();
-            documentoAlumnos.Load("registros.xml");
+            documentoAlumnos.Load(pathRegistros);
             // Necesitamos agregar un nuevo alumno
             var xmlPadre = documentoAlumnos.SelectSingleNode("Alumnos");
             XmlNode nuevoAlumno = documentoAlumnos.CreateElement("Alumno");
@@ -53,7 +63,7 @@ namespace PrimatonG4
             // Guardamos el nuevo nodo
             xmlPadre.AppendChild(nuevoAlumno);
             // Salvamos los cambios
-            documentoAlumnos.Save("registros.xml");
+            documentoAlumnos.Save(pathRegistros);
 
         }
 
@@ -64,6 +74,10 @@ namespace PrimatonG4
 
         public static Alumno login (string dni, string clave) 
         {
+            if (!File.Exists(pathRegistros))
+            {
+                return null;
+            }
             Alumno alumnoEncontrado = null;
             XmlDocument alumnos = new XmlDocument();
             alumnos.Load("registros.xml");

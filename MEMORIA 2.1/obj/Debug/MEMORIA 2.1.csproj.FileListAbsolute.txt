@@ -1,0 +1,20 @@
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\bin\Debug\MEMORIA 2.1.exe.config
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\bin\Debug\MEMORIA 2.1.exe
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\bin\Debug\MEMORIA 2.1.pdb
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csprojAssemblyReference.cache
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA_2._1.FormM.resources
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA_2._1.Properties.Resources.resources
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csproj.GenerateResource.cache
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csproj.CoreCompileInputs.cache
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.exe
+E:\PRIMATON\RESPALDO\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.pdb
+E:\PRIMATON\MEMORIA 2.1\bin\Debug\MEMORIA 2.1.exe.config
+E:\PRIMATON\MEMORIA 2.1\bin\Debug\MEMORIA 2.1.exe
+E:\PRIMATON\MEMORIA 2.1\bin\Debug\MEMORIA 2.1.pdb
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csprojAssemblyReference.cache
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA_2._1.FormM.resources
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA_2._1.Properties.Resources.resources
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csproj.GenerateResource.cache
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csproj.CoreCompileInputs.cache
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.exe
+E:\PRIMATON\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.pdb

@@ -23,21 +23,7 @@ namespace PrimatonG4
             Application.Exit();
         }
 
-        private void BtnJugar_Click(object sender, EventArgs e)
-        {
-            var loginDni = txtDni.Text;
-            var loginClave = txtContrasenia.Text;
-            var encontrado = Users.login(loginDni, loginClave);
-            if(encontrado != null) 
-            {
-                Form2 Juego = new Form2();
-                Juego.Show();
-            }
-            else 
-            {
-                MessageBox.Show("Controla de haber ingresado bien tu DNI o tu contraseña");
-            }
-        }
+        
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {

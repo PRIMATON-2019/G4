@@ -60,7 +60,7 @@
             this.btnJugar.TabIndex = 6;
             this.btnJugar.Text = "JUGAR";
             this.btnJugar.UseVisualStyleBackColor = true;
-            this.btnJugar.Click += new System.EventHandler(this.BtnJugar_Click);
+            
             // 
             // lblTitulo
             // 

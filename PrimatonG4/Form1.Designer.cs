@@ -36,8 +36,6 @@
             this.txtJugador = new System.Windows.Forms.TextBox();
             this.lblDni = new System.Windows.Forms.Label();
             this.pboxLogo = new System.Windows.Forms.PictureBox();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.pnlTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxLogo)).BeginInit();
             this.SuspendLayout();
@@ -92,12 +90,11 @@
             // txtJugador
             // 
             this.txtJugador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
-            this.txtJugador.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtJugador.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtJugador.ForeColor = System.Drawing.Color.Gold;
             this.txtJugador.Location = new System.Drawing.Point(163, 329);
             this.txtJugador.Name = "txtJugador";
-            this.txtJugador.Size = new System.Drawing.Size(238, 20);
+            this.txtJugador.Size = new System.Drawing.Size(238, 27);
             this.txtJugador.TabIndex = 10;
             this.txtJugador.Text = "JUGADOR";
             this.txtJugador.Enter += new System.EventHandler(this.TxtJugador_Enter);
@@ -124,25 +121,6 @@
             this.pboxLogo.TabIndex = 17;
             this.pboxLogo.TabStop = false;
             // 
-            // shapeContainer1
-            // 
-            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(470, 520);
-            this.shapeContainer1.TabIndex = 18;
-            this.shapeContainer1.TabStop = false;
-            // 
-            // lineShape1
-            // 
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 163;
-            this.lineShape1.X2 = 400;
-            this.lineShape1.Y1 = 351;
-            this.lineShape1.Y2 = 351;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,7 +133,6 @@
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.txtJugador);
             this.Controls.Add(this.btnJugar);
-            this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -177,8 +154,6 @@
         private System.Windows.Forms.TextBox txtJugador;
         private System.Windows.Forms.Label lblDni;
         private System.Windows.Forms.PictureBox pboxLogo;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
     }
 }
 

@@ -27,7 +27,7 @@ namespace MEMORIA_2._1
 
 		private void FormM_Load(object sender, EventArgs e)
 		{
-			string Ruta = "E:\\PRIMATON\\foto\\2.JPG";
+			string Ruta = "C:\\PRIMATON\\foto\\2.JPG";
 			PbImagen1.Image = System.Drawing.Image.FromFile(Ruta);
 			PbImagen2.Image = System.Drawing.Image.FromFile(Ruta);
 			PbImagen3.Image = System.Drawing.Image.FromFile(Ruta);
@@ -67,7 +67,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I1.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I1.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -81,7 +81,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I2.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I2.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -95,7 +95,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I3.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I3.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -109,7 +109,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I4.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I4.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -123,7 +123,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I5.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I5.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -138,7 +138,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I6.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I6.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -152,7 +152,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I7.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I7.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -166,7 +166,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I8.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I8.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -180,7 +180,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I9.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I9.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -194,7 +194,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I10.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I10.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -208,7 +208,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I11.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I11.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -222,7 +222,7 @@ namespace MEMORIA_2._1
 			Contador = 0;
 			while (Contador < 2)
 			{
-				Ruta = "E:\\PRIMATON\\foto\\I12.ICO";
+				Ruta = "C:\\PRIMATON\\foto\\I12.ICO";
 				int numero = aleatorio.Next(0, 24);
 				for (int i = 0; i < 24; i++)
 				{
@@ -238,7 +238,7 @@ namespace MEMORIA_2._1
 
 		private void OcultarPrimeraImagen(int indice)
 		{
-			string Ruta = "E:\\PRIMATON\\foto\\2.JPG";
+			string Ruta = "C:\\PRIMATON\\foto\\2.JPG";
 			switch (indice)
 			{
 				case 1:
@@ -319,7 +319,7 @@ namespace MEMORIA_2._1
 		}
 
         private void RevelarTodas() {
-            PbImagen1.Image = System.Drawing.Image.FromFile(vector[0]);
+           /* PbImagen1.Image = System.Drawing.Image.FromFile(vector[0]);
             PbImagen2.Image = System.Drawing.Image.FromFile(vector[1]);
             PbImagen3.Image = System.Drawing.Image.FromFile(vector[2]);
             PbImagen4.Image = System.Drawing.Image.FromFile(vector[3]);
@@ -342,7 +342,7 @@ namespace MEMORIA_2._1
             PbImagen21.Image = System.Drawing.Image.FromFile(vector[20]);
             PbImagen22.Image = System.Drawing.Image.FromFile(vector[21]);
             PbImagen23.Image = System.Drawing.Image.FromFile(vector[22]);
-            PbImagen24.Image = System.Drawing.Image.FromFile(vector[23]);
+            PbImagen24.Image = System.Drawing.Image.FromFile(vector[23]);*/
         }
         private void PbImagen1_Click(object sender, EventArgs e)
         {
@@ -1195,7 +1195,7 @@ namespace MEMORIA_2._1
 
         private void BtnJugar_Click(object sender, EventArgs e)
         {
-            string Ruta = "E:\\PRIMATON\\foto\\2.JPG";
+            string Ruta = "C:\\PRIMATON\\foto\\2.JPG";
             PbImagen1.Image = System.Drawing.Image.FromFile(Ruta);
             PbImagen2.Image = System.Drawing.Image.FromFile(Ruta);
             PbImagen3.Image = System.Drawing.Image.FromFile(Ruta);

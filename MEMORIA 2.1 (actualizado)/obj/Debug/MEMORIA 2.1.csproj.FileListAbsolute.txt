@@ -28,3 +28,14 @@ E:\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csproj.GenerateResource.cache
 E:\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.csproj.CoreCompileInputs.cache
 E:\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.exe
 E:\MEMORIA 2.1\obj\Debug\MEMORIA 2.1.pdb
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\bin\Debug\MEMORIA 2.1.exe.config
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\bin\Debug\MEMORIA 2.1.exe
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\bin\Debug\MEMORIA 2.1.pdb
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA 2.1.csprojAssemblyReference.cache
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA_2._1.FormM.resources
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA_2._1.Properties.Resources.resources
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA 2.1.csproj.GenerateResource.cache
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA 2.1.csproj.CoreCompileInputs.cache
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA 2.1.exe
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA 2.1.pdb
+C:\Users\Juan_\OneDrive\Documentos\Escritorio\G4Final14\G4\MEMORIA 2.1 (actualizado)\obj\Debug\MEMORIA_2._1.Form2.resources

@@ -16,7 +16,7 @@ namespace MEMORIA_2._1
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new FormM());
+			Application.Run(new Form2());
 		}
 	}
 }
